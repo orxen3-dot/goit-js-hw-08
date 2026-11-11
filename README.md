@@ -1,26 +1,24 @@
 # Image Gallery with Lightbox
 
-A simple image gallery built with vanilla JavaScript and the BasicLightbox library.
+A small image gallery built with vanilla JavaScript and the BasicLightbox library.
 
 ## Features
 
 - Gallery items generated from an array of image objects
 - Preview images with descriptive alternative text
-- Larger image opened in a modal lightbox when selected
-- Reusable gallery-markup generation function
+- Full-size image preview in a lightbox when an image is selected
+- Reusable function for generating gallery markup
 
 ## Technologies
 
 - HTML5
 - CSS3
-- JavaScript (ES Modules)
-- BasicLightbox
+- Vanilla JavaScript
+- BasicLightbox (loaded from jsDelivr CDN)
 
 ## Run locally
 
-1. Clone the repository.
-2. Install dependencies if the project package configuration is present.
-3. Open the project with the configured development server, or follow the course setup used for this assignment.
+Clone the repository and open `index.html` in a browser. The BasicLightbox stylesheet and script are loaded from the jsDelivr CDN, so an internet connection is required.
 
 ## Learning focus
 
@@ -28,4 +26,4 @@ Generating HTML from data, handling click events, preventing default link naviga
 
 ## Project context
 
-A small GoIT JavaScript homework project, not a full image-search application.
+A small GoIT JavaScript homework project. It demonstrates a basic image gallery and lightbox, not a full image-search application.
